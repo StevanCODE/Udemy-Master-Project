@@ -1,0 +1,36 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    position:relative;
+    
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+      position:absolute;
+      transform: translateX(85%)
+
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position:absolute;
+      transform: translate(85%,30%);
+      
+
+
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
